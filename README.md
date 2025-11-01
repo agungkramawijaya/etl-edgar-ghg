@@ -98,7 +98,7 @@ The entity relationship diagram (ERD) below illustrates the final database struc
 </p>
 
 <p align="center">
-  <img src="erd-edgar-ghg.png" alt="ERD Diagram for Global GHG Emission Database" width="700">
+  <img src="https://github.com/agungkramawijaya/etl-edgar-ghg/blob/main/assets/erd-edgar-ghg.png" alt="ERD Diagram for Global GHG Emission Database" width="700">
 </p>
 
 <p>
