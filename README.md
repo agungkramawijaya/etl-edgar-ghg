@@ -75,6 +75,10 @@ Before designing the SQL database schema, an <strong>initial examination of the 
     <strong>Presence of incomplete or missing records:</strong><br>
     Several rows contain <strong>NA (Not Available)</strong> values for entire column, indicating missing rows. These rows need to be <strong>identified and removed</strong> (or handled appropriately) during the data cleaning process to ensure the resulting database maintains high accuracy and consistency.
   </li>
+  <li>
+    <strong>Missing Essential Dataset:</strong><br>
+    Some key datasets required for comprehensive analysis are <strong>absent</strong> from the provided spreadsheet. Specifically, data such as <em>total GHG emissions per macro-region</em>, <em>sectoral total GHG emissions by macro-region</em>, and <em>total sectoral GHG emissions from LULUCF by macro-region</em> are missing. To support advanced analysis, these datasets must be <strong>aggregated and derived</strong> from the available raw data through structured data transformation processes.
+  </li>
 </ul>
 
 <p>
