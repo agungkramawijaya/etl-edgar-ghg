@@ -73,7 +73,7 @@ Before designing the SQL database schema, an <strong>initial examination of the 
 
   <li>
     <strong>Presence of incomplete or missing records:</strong><br>
-    Several rows contain <strong>NA (Not Available)</strong> values, indicating missing data points. These rows need to be <strong>identified and removed</strong> (or handled appropriately) during the data cleaning process to ensure the resulting database maintains high accuracy and consistency.
+    Several rows contain <strong>NA (Not Available)</strong> values for entire column, indicating missing rows. These rows need to be <strong>identified and removed</strong> (or handled appropriately) during the data cleaning process to ensure the resulting database maintains high accuracy and consistency.
   </li>
 </ul>
 
