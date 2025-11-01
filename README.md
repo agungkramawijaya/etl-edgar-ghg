@@ -132,7 +132,7 @@ The ETL process was designed in alignment with the findings from the initial dat
 
 <p>
 This ETL pipeline ensures that the data flow from the original EDGAR source to the final database is repeatable and reliable.  
-The complete Python script implementing the ETL process can be found here: <a href="https://github.com/agungkramawijaya/etl-edgar-ghg/blob/main/code/ghg-edgar-etl.py" target="_blank">ETL Python Script</a>.
+The complete Python script implementing the ETL process can be found here: <a href="https://github.com/agungkramawijaya/etl-edgar-ghg/blob/main/code/ghg-edgar-etl.py" target="_blank">[ETL Python Script  ↗]</a>.
 </p>
 
 
