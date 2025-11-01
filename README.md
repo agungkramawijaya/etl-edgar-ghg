@@ -114,7 +114,7 @@ In summary, this data model captures:
 
 <p>
 Based on this new structure, all corresponding tables were created in <strong>PostgreSQL</strong> using <strong>DBeaver</strong>.  
-The table creation script can be found here: <a href="https://github.com/agungkramawijaya/etl-edgar-ghg/raw/main/code/ghg-edgar-create-table.sql">SQL Table Creation Script</a>.
+The table creation script can be found here: <a href="https://github.com/agungkramawijaya/etl-edgar-ghg/blob/main/code/ghg-edgar-create-table.sql" target="_blank">SQL Table Creation Script</a>.
 </p>
 
 <h3>Data Extraction, Transformation, and Load (ETL)</h3>
@@ -124,14 +124,14 @@ The ETL process was designed in alignment with the findings from the initial dat
 </p>
 
 <ul>
-  <li><strong>Extraction</strong> — retrieves raw GHG emission data directly from EDGAR’s published spreadsheets. The modified spreadsheet can be found here: <a href="https://github.com/agungkramawijaya/etl-edgar-ghg/raw/main/data/processed-data/EDGAR_2025_GHG_booklet_2025_processed.xlsx">Modified EDGAR Spreadsheet</a> </li>
+  <li><strong>Extraction</strong> — retrieves raw GHG emission data directly from EDGAR’s published spreadsheets. The modified spreadsheet can be found here: <a href="https://github.com/agungkramawijaya/etl-edgar-ghg/raw/main/data/processed-data/EDGAR_2025_GHG_booklet_2025_processed.xlsx" download>Modified EDGAR Spreadsheet</a> </li>
   <li><strong>Transformation</strong> — restructures horizontal year-based data into a vertical format, normalizes field names, removes missing values, separates merged datasets, and aligns data types to match the SQL schema.</li>
   <li><strong>Load</strong> — inserts the cleaned and transformed datasets into the corresponding PostgreSQL tables to enable structured queries and analysis.</li>
 </ul>
 
 <p>
 This ETL pipeline ensures that the data flow from the original EDGAR source to the final database is repeatable and reliable.  
-The complete Python script implementing the ETL process can be found here: <a href="https://github.com/agungkramawijaya/etl-edgar-ghg/raw/main/code/ghg-edgar-etl.py">ETL Python Script</a>.
+The complete Python script implementing the ETL process can be found here: <a href="https://github.com/agungkramawijaya/etl-edgar-ghg/blob/main/code/ghg-edgar-etl.py" target="_blank">ETL Python Script</a>.
 </p>
 
 
