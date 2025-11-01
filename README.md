@@ -157,7 +157,7 @@ With the database structure and ETL pipeline established, several opportunities 
 </p>
 
 <ul>
-  <li><strong>Global Emission Trend Analysis:</strong> Examine long-term changes in total and per-capita GHG emissions across countries and macro-regions through interactive dashboards and time-series analysis.</li>
+  <li><strong>Global Emission Trend Analysis:</strong> Examine long-term changes in total, per-capita, and per-GDP GHG emissions across countries and macro-regions through interactive dashboards and time-series analysis.</li>
 
   <li><strong>Sectoral and Substance-Based Insights:</strong> Analyze emissions by sector and gas type (e.g., CO₂, CH₄, N₂O) to identify dominant contributors and evaluate mitigation priorities.</li>
 
