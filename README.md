@@ -114,7 +114,7 @@ In summary, this data model captures:
 
 <p>
 Based on this new structure, all corresponding tables were created in <strong>PostgreSQL</strong> using <strong>DBeaver</strong>.  
-The table creation script can be found here: [SQL Table Creation Script ↗](https://github.com/agungkramawijaya/etl-edgar-ghg/blob/main/code/ghg-edgar-create-table.sql)
+The table creation script can be found here: <a href="https://github.com/agungkramawijaya/etl-edgar-ghg/blob/main/code/ghg-edgar-create-table.sql">[SQL Table Creation Script ↗]</a>
 
 </p>
 
