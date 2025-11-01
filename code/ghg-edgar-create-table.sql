@@ -98,7 +98,11 @@ CREATE TABLE edgar_data.lulucf_regions(
 	data_source VARCHAR(50)
 )
 
--- ===================================================================
+-- ===================================================================================================================
+-- All codes starting from here shall be executed after all the tables above was filled by execute python script 
+-- ===================================================================================================================
+
+-- ===================================================================	
 -- Sectoral GHG Emissions by macro regions (ghg_sectoral_regions)
 -- ===================================================================
 CREATE TABLE edgar_data.ghg_sectoral_regions AS
