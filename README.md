@@ -2,7 +2,7 @@
 
 <br>
 
-<h2>Background</h2>
+<h2>Project Background</h2>
 
 <p>
 Greenhouse gas (GHG) emissions have become a pressing global concern, driving governments, researchers, and organizations worldwide to better understand, quantify, and mitigate their impact on climate change. Reliable data is essential for informed policy-making, scientific research, and monitoring progress toward international climate goals.
@@ -30,7 +30,7 @@ This project addresses that need by developing a data pipeline that:
 Through this process, the project ensures that complex emission data can be handled programmatically and analyzed efficiently — laying a solid foundation for environmental data science, policy evaluation, and global emission trend studies.
 </p>
 
-<h2>Goal</h2>
+<h2>Project Goal</h2>
 
 <p>
 The primary objective of this project is to design and implement an <strong>ETL (Extract, Transform, Load) pipeline</strong> that efficiently converts EDGAR’s raw emission spreadsheets into a structured SQL database. By doing so, the project aims to bridge the gap between raw environmental datasets and analytical readiness.
