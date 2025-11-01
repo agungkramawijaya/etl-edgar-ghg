@@ -99,7 +99,7 @@ CREATE TABLE edgar_data.lulucf_regions(
 )
 
 -- ===================================================================================================================
--- All codes starting from here shall be executed after all the tables above was filled by execute python script 
+-- All codes starting from here shall be executed after all the tables above was filled by executing python script 
 -- ===================================================================================================================
 
 -- ===================================================================	
