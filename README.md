@@ -31,13 +31,13 @@ Through this process, the project ensures that complex emission data can be hand
 <h2>Project Goal</h2>
 
 <p>
-The primary objective of this project is to design and implement an automated <strong>ETL (Extract, Transform, Load) pipeline</strong> that efficiently converts EDGAR’s raw emission spreadsheets into a structured SQL database. By doing so, the project aims to bridge the gap between raw environmental datasets and analytical readiness.
+The primary objective of this project is to design and implement an <strong>ETL (Extract, Transform, Load) pipeline</strong> that efficiently converts EDGAR’s raw emission spreadsheets into a structured SQL database. By doing so, the project aims to bridge the gap between raw environmental datasets and analytical readiness.
 </p>
 
 <p>Specifically, the project seeks to:</p>
 
 <ul>
-  <li>Develop a robust ETL pipeline capable of extracting emission data directly from EDGAR’s publicly available spreadsheets, transforming it into a clean, consistent schema, and loading it into a PostgreSQL database.</li>
+  <li>Develop a ETL pipeline capable of extracting emission data directly from EDGAR’s publicly available spreadsheets, transforming it into a clean, consistent schema, and loading it into a PostgreSQL database.</li>
   <li>Deliver a well-structured relational database that supports efficient querying, integration, and statistical analysis — enabling researchers, policymakers, and developers to gain deeper insights into global GHG emission patterns.</li>
 </ul>
 
